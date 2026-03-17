@@ -1,5 +1,38 @@
-[{
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target" : { "namespace": "android_app", "package_name": "org.chromium.authtabapp",
-                 "sha256_cert_fingerprints": ["8D:C6:33:FB:4A:CE:38:AB:59:E5:4C:6D:B3:DE:CB:A8:68:A3:0B:32:17:63:33:93:EA:E9:9A:47:28:1C:B5:1C"] }
-}]
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "org.chromium.authtabapp",
+            "sha256_cert_fingerprints": [
+                "8D:C6:33:FB:4A:CE:38:AB:59:E5:4C:6D:B3:DE:CB:A8:68:A3:0B:32:17:63:33:93:EA:E9:9A:47:28:1C:B5:1C"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "org.chromium.linkhandlerone",
+            "sha256_cert_fingerprints": [
+                "8D:C6:33:FB:4A:CE:38:AB:59:E5:4C:6D:B3:DE:CB:A8:68:A3:0B:32:17:63:33:93:EA:E9:9A:47:28:1C:B5:1C"
+            ]
+        }
+    },
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "org.chromium.linkhandlertwo",
+            "sha256_cert_fingerprints": [
+                "8D:C6:33:FB:4A:CE:38:AB:59:E5:4C:6D:B3:DE:CB:A8:68:A3:0B:32:17:63:33:93:EA:E9:9A:47:28:1C:B5:1C"
+            ]
+        }
+    }
+]
